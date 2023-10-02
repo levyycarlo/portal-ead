@@ -1,0 +1,264 @@
+/* Reset de estilos */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais para a página */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #051937, #004d7a, #0084c8, #00b1ff);
+    color: #fff;
+    overflow-x: hidden;
+    margin: 0;
+    /* Adicione esta linha para remover margens padrão */
+}
+
+header {
+    background-color: #0091ea;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #0056b3;
+}
+
+main {
+    padding: 40px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.curso-selection h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.curso-selection select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    font-size: 16px;
+}
+
+.aulas {
+    margin-top: 40px;
+}
+
+.material-button {
+    background-color: #0091ea;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.material-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.aulas-options {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aulas-options.expanded {
+    display: flex;
+}
+
+.aula-button {
+    background-color: #0091ea;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px 0;
+    width: 100%;
+    text-align: left;
+}
+
+.aula-button:hover {
+    background-color: #0056b3;
+}
+
+.video-container {
+    margin-top: 20px;
+}
+
+.anotacoes h2 {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.anotacoes-text {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    min-height: 150px;
+}
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    /* Tornar o rodapé fixo */
+    bottom: 0;
+    /* Alinhar o rodapé na parte inferior */
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.loading-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.loading-spinner {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Estilos adicionados */
+
+/* header */
+header {
+    background-color: #000000; /* Cor de fundo do cabeçalho escuro */
+}
+
+nav a {
+    color: #ffffff; /* Cor do texto do link no cabeçalho */
+}
+
+nav a:hover {
+    color: #39aae1; /* Cor do texto do link no hover no cabeçalho */
+}
+
+/* section */
+
+.banner {
+    background-color: #000; /* Cor de fundo do banner */
+}
+
+.banner1 {
+    background-color: #39aae1; /* Cor do primeiro banner */
+}
+
+.banner2 {
+    background-color: #0079c7; /* Cor do segundo banner */
+}
+
+.banner3 {
+    background-color: #2b4c99; /* Cor do terceiro banner */
+}
+
+.banner_title,
+.banner_desc,
+.banner_options a {
+    color: #fff; /* Cor do texto no banner */
+}
+
+/* geral */
+
+body,
+#geral aside {
+    background-color: #000000; /* Cor de fundo escura */
+}
+
+.article {
+    background-color: #000000; /* Cor de fundo dos artigos */
+    color: #ffffff; /* Cor do texto nos artigos */
+}
+
+.widget_body {
+    background-color: #000000; /* Cor de fundo dos widgets */
+    border-color: #000000; /* Cor da borda dos widgets */
+}
+
+.widget_body div {
+    border-top-color: #000000; /* Cor da borda superior dos widgets */
+    color: #fff; /* Cor do texto nos widgets */
+}
+
+footer {
+    background-color: #000000; /* Cor de fundo do rodapé */
+}
+
+.footer_menu {
+    background-color: #000000; /* Cor de fundo do menu do rodapé */
+}
+
+.footer_areaitem {
+    background-color: #000000; /* Cor de fundo das áreas do rodapé */
+    color: #fff; /* Cor do texto nas áreas do rodapé */
+}
+
+.footer_copy {
+    background-color: #000; /* Cor de fundo da área de copyright */
+    border-color: #000000; /* Cor da borda da área de copyright */
+    color: #fff; /* Cor do texto na área de copyright */
+}

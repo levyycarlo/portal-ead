@@ -1,0 +1,54 @@
+/* Estilos gerais para a página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000; /* Cor de fundo da página */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Estilos para o título */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para as opções de login */
+.options {
+    display: flex;
+    justify-content: center;
+}
+
+.option-button {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    background-color: #007BFF; /* Cor de fundo padrão */
+    color: #fff; /* Cor do texto padrão */
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px; /* Borda arredondada */
+    transition: transform 0.3s, background-color 0.3s; /* Transições de transformação e cor de fundo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; /* Largura fixa para manter os botões do mesmo tamanho */
+}
+
+/* Estilos para o ícone */
+.option-button i {
+    font-size: 48px; /* Tamanho do ícone */
+    margin-bottom: 10px;
+}
+
+/* Estilos para a animação de movimento quando passar o mouse sobre o botão */
+.option-button:hover {
+    transform: translateY(-5px); /* Mova o botão 5 pixels para cima */
+    background-color: #0056b3; /* Cor de fundo alterada ao passar o mouse */
+}

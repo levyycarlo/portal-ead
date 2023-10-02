@@ -1,0 +1,49 @@
+/* Estilos gerais para a página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Estilizando o botão gigante */
+.floating-button {
+    background-color: #39aae1;
+    color: #ffffff;
+    font-size: 36px;
+    border: none;
+    border-radius: 50px; /* Valor maior para tornar o botão mais arredondado */
+    padding: 30px 60px; /* Maior padding para tornar o botão maior */
+    cursor: pointer;
+    animation: float 2s ease-in-out infinite;
+    transition: background-color 0.3s, transform 0.3s;
+    text-transform: uppercase;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra suave */
+    margin-top: 20px; /* Espaço entre o botão e o texto */
+    text-decoration: none; /* Remove o sublinhado do link */
+    display: inline-block; /* Torna o botão um elemento de bloco */
+}
+
+.floating-button:hover {
+    background-color: #0079c7;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* Aumenta a sombra no hover */
+}
+
+/* Estilos para o texto de boas-vindas */
+.welcome-text {
+    font-size: 28px; /* Tamanho maior para parecer um título */
+    margin-bottom: 20px;
+    font-weight: bold; /* Texto em negrito */
+    font-family: 'Courier New', monospace; /* Fonte monoespaçada para um estilo de programação */
+}

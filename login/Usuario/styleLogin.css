@@ -1,0 +1,71 @@
+/* Estilo da página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #232323; /* Cor de fundo da página */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0;
+}
+
+.container {
+    background-color: #000000; /* Cor de fundo do container */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ffffff; /* Cor do título */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #232323; /* Borda */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ffffff; /* Cor de fundo do campo de entrada */
+}
+
+button {
+    background-color: #007BFF; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease; /* Transição de cor ao passar o mouse */
+}
+
+button:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
+
+select {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9; /* Cor de fundo do campo de entrada */
+}
+
+select {
+    appearance: none; /* Remove a seta padrão do menu suspenso */
+}
+

@@ -1,0 +1,34 @@
+body{
+    background-color: aqua;
+}
+
+/* Adicione estas regras de estilo para a tabela */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #0091ea;
+    color: #fff;
+}
+
+/* Estilo para os links de edição na coluna "Ações" */
+table a {
+    text-decoration: none;
+    color: #0091ea;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
